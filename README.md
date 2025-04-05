@@ -1,42 +1,63 @@
-# student_collection
+# Student_Collection
 
-// Mandatory Fields to Add in backend .env
+## Technologies Used
 
-# DB_USER=your_database_user
-# DB_HOST=your_database_host
-# DB_NAME=your_database_name
-# DB_PASSWORD=your_database_password
-# DB_PORT=your_database_port
-
-
-
-// Backend Setup
-
-Navigate to the Backend Directory:
-# cd backend
-
-Install Dependencies:
-# npm install
-
-Start the Backend Server:
-# npm start
+- **Node.js**:  For building the server and handling API requests.
+- **React.js**: For building the user interface and managing the state of the application.
+- **Bootstrap**: For styling the application and ensuring a responsive design.
+- **Express.js**: For creating the API endpoints and handling routing.
+- **PostgreSQL**: For database management and storing student and marks data.
 
 
 
-// Frontend Setup
+## Mandatory Fields to Add in backend .env
 
-Navigate to the Frontend Directory:
-# cd frontend
+- **DB_USER**= your_database_user
+- **DB_HOST**= your_database_host
+- **DB_NAME**= your_database_name
+- **DB_PASSWORD**= your_database_password
+- **DB_PORT**= your_database_port
 
-Install Dependencies:
-# npm install
+## Steps to Run the Project
 
-Start the Frontend Development Server:
-# npm run dev
+1. **Clone the repository:**
+ ```sh
+   git clone https://github.com/Balaravi9688/student_collection.git
+   ```
+   
+2. **Navigate to the Project Directory:**
+   ```sh
+   cd student_collection
+   ```
 
+3. **Navigate to the Backend Directory:**
+   ```sh
+   cd backend
+   ```
 
-Tech Stack Used in the Project:
+4. **Install Dependencies:**
+   ```sh
+   npm install
+   ```
 
---Frontend: React, Bootstrap, Axios
---Backend: Node.js, Express.js, PostgreSQL
---Database: PostgreSQL
+5. **Start the Server:**
+   ```sh
+   npm start
+   ```
+
+5. **Navigate to the Frontend Directory:**
+   ```sh
+   cd frontend
+   ```
+6. **Install Dependencies:**
+   ```sh
+   npm install
+   ```
+
+7. **Start the Frontent:**
+      ```sh
+   npm run dev
+   ```
+
+8. **Open in Browser:**
+   Visit: Frontend port

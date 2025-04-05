@@ -61,7 +61,7 @@ Example Response Body:
 
 ****************************************************************************************************************************************
 
-PUT /api/students/{id}
+# PUT /api/students/{id}
 
 Description:
 Update an existing student's details and marks.
@@ -90,7 +90,7 @@ Example Response Body:
 ****************************************************************************************************************************************
 
 
-DELETE /api/students/{id}
+# DELETE /api/students/{id}
 
 Description:
 Delete a student by their ID.

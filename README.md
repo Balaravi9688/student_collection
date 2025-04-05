@@ -10,7 +10,7 @@
 
 
 
-// Backend Setu
+// Backend Setup
 
 Navigate to the Backend Directory:
 # cd backend
@@ -33,3 +33,10 @@ Install Dependencies:
 
 Start the Frontend Development Server:
 # npm run dev
+
+
+Tech Stack Used in the Project:
+
+Frontend: React, Bootstrap, Axios
+Backend: Node.js, Express.js, PostgreSQL
+Database: PostgreSQL

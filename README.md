@@ -19,14 +19,14 @@ Install Dependencies:
 # npm install
 
 Start the Backend Server:
-## npm start
+# npm start
 
 
 
 // Frontend Setup
 
 Navigate to the Frontend Directory:
-## cd frontend
+# cd frontend
 
 Install Dependencies:
 # npm install

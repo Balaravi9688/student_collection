@@ -19,14 +19,14 @@ Install Dependencies:
 # npm install
 
 Start the Backend Server:
-# npm start
+## npm start
 
 
 
 // Frontend Setup
 
 Navigate to the Frontend Directory:
-# cd frontend
+## cd frontend
 
 Install Dependencies:
 # npm install
@@ -37,6 +37,6 @@ Start the Frontend Development Server:
 
 Tech Stack Used in the Project:
 
-Frontend: React, Bootstrap, Axios
-Backend: Node.js, Express.js, PostgreSQL
-Database: PostgreSQL
+--Frontend: React, Bootstrap, Axios
+--Backend: Node.js, Express.js, PostgreSQL
+--Database: PostgreSQL

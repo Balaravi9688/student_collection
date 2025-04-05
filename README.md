@@ -2,11 +2,11 @@
 
 // Mandatory Fields to Add in backend .env
 
-DB_USER=your_database_user
-DB_HOST=your_database_host
-DB_NAME=your_database_name
-DB_PASSWORD=your_database_password
-DB_PORT=your_database_port
+# DB_USER=your_database_user
+# DB_HOST=your_database_host
+# DB_NAME=your_database_name
+# DB_PASSWORD=your_database_password
+# DB_PORT=your_database_port
 
 
 

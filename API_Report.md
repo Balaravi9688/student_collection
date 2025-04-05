@@ -1,7 +1,6 @@
 API Documentation - Student Collection
 
 
-1. 
 # GET /api/students
 
 Description:
@@ -16,14 +15,14 @@ Example Response Body:
 [ { "id": 1, "name": "John Doe", "dob": "2000-01-01", "email": "john@example.com", "tamil": 85, "english": 90 }, ... ]
 
 ****************************************************************************************************************************************
-2. 
+
 # GET /api/students/{id}
 
 Description:
 Fetch a specific student and their marks by student ID.
 
 Parameters:
-# id (required): The unique ID of the student to retrieve.
+id (required): The unique ID of the student to retrieve.
 
 Response:
 Status: 200 OK
@@ -31,13 +30,12 @@ Status: 200 OK
 Body: A student object.
 
 # Example Response Body:
-# { "id": 1, "name": "John Doe", "dob": "2000-01-01", "email": "john@example.com", "tamil": 85, "english": 90 }
+{ "id": 1, "name": "John Doe", "dob": "2000-01-01", "email": "john@example.com", "tamil": 85, "english": 90 }
 
 Status: 404 Not Found (if the student with the provided ID does not exist)
 
 ****************************************************************************************************************************************
 
-3. 
 # POST /api/students
 
 Description:
@@ -51,7 +49,7 @@ tamil (required): The student's Tamil marks (integer).
 english (required): The student's English marks (integer).
 
 # Example Request Body:
-# { "name": "Jane Doe", "dob": "2001-02-15", "email": "jane@example.com", "tamil": 75, "english": 80 }
+{ "name": "Jane Doe", "dob": "2001-02-15", "email": "jane@example.com", "tamil": 75, "english": 80 }
 
 Response:
 Status: 201 Created
@@ -63,14 +61,13 @@ Example Response Body:
 
 ****************************************************************************************************************************************
 
-
-4. PUT /api/students/{id}
+PUT /api/students/{id}
 
 Description:
 Update an existing student's details and marks.
 
 Parameters:
-# id (required): The ID of the student to update.
+id (required): The ID of the student to update.
 
 Request Body:
 name : The student's name.
@@ -80,7 +77,7 @@ tamil : The student's Tamil marks (integer).
 english : The student's English marks (integer).
 
 # Example Request Body:
-# { "name": "Jane Smith", "dob": "2001-02-15", "email": "jane.smith@example.com", "tamil": 80, "english": 85 }
+{ "name": "Jane Smith", "dob": "2001-02-15", "email": "jane.smith@example.com", "tamil": 80, "english": 85 }
 
 Response:
 Status: 200 OK
@@ -93,14 +90,13 @@ Example Response Body:
 ****************************************************************************************************************************************
 
 
-5. 
 DELETE /api/students/{id}
 
 Description:
 Delete a student by their ID.
 
 Parameters:
-# id (required): The ID of the student to delete.
+id (required): The ID of the student to delete.
 
 Response:
 Status: 200 OK

@@ -1,0 +1,10 @@
+.animated-title {
+    font-weight: 700;
+    font-size: 34px;
+    color: transparent;
+    background: linear-gradient(90deg, #ff7a18, #af002d, #319197, #ffb900);
+    background-clip: text;
+    -webkit-background-clip: text;
+    animation: floatText 6s ease-in-out infinite;
+  }
+  
